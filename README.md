@@ -17,12 +17,21 @@ reducing expected depth by **41.2%** (3.0 → 1.76 layers) while achieving
 ```
 ├── Early_Exit_Link_Prediction.ipynb   # Main notebook (run this)
 ├── src/
+│   ├── __init__.py
 │   ├── model.py          # AdaptiveSAGE model class
 │   ├── data_utils.py     # Data loading, negative generation, subgraph caching
 │   ├── train_eval.py     # Training loop, evaluation, diagnostics
 │   ├── visualisation.py  # All plotting functions and LaTeX table
 │   └── utils.py          # Seed setting, JSON save/load, result printing
-├── outputs/              # Generated plots and result JSONs (not tracked)
+├── outputs/
+│   ├── training_curves.png
+│   ├── baseline_comparison_FINAL.png
+│   ├── efficiency_comparison_FINAL.png
+│   ├── exit_distribution.png
+│   ├── results_log.json              # Training history (loss, val MRR per epoch)
+│   └── test_results_FINAL_500negs.json  # Final test results (500 negatives)
+├── models/
+│   └── best_model.pt                 # Best checkpoint by validation MRR (hosted on Google Drive)
 └── README.md
 ```
 
