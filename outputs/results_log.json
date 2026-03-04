@@ -1,0 +1,84 @@
+{
+  "seed": 123,
+  "hyperparameters": {
+    "hidden_dim": 128,
+    "L_max": 3,
+    "dropout": 0.1,
+    "lr": 0.001,
+    "l2": 0.001,
+    "lambda_depth": 0.0,
+    "batch_size": 8,
+    "num_neg_train": 5,
+    "epochs": 50,
+    "eval_every": 10,
+    "eval_subset": 100
+  },
+  "training_history": [
+    {
+      "epoch": 10,
+      "train_loss": 0.09925960616246796,
+      "train_rank_loss": 0.09925960616246796,
+      "train_depth_pen": 0.0,
+      "train_avg_depth": 1.674771155903046,
+      "val_mrr": 0.09445126652023607,
+      "val_hits10": 0.19,
+      "val_hits20": 0.27,
+      "val_hits50": 0.5,
+      "val_avg_depth": 2.2252694610778443,
+      "computation_saved": 0.2582435129740519
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.05463703395259266,
+      "train_rank_loss": 0.05463703395259266,
+      "train_depth_pen": 0.0,
+      "train_avg_depth": 1.68349207772149,
+      "val_mrr": 0.11701424825863578,
+      "val_hits10": 0.18,
+      "val_hits20": 0.29,
+      "val_hits50": 0.5,
+      "val_avg_depth": 2.1182634730538923,
+      "computation_saved": 0.29391217564870253
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.044120174087667025,
+      "train_rank_loss": 0.044120174087667025,
+      "train_depth_pen": 0.0,
+      "train_avg_depth": 1.7162773619077776,
+      "val_mrr": 0.10341550195869813,
+      "val_hits10": 0.16,
+      "val_hits20": 0.31,
+      "val_hits50": 0.47,
+      "val_avg_depth": 2.3968263473053892,
+      "computation_saved": 0.20105788423153692
+    },
+    {
+      "epoch": 40,
+      "train_loss": 0.041307167897545426,
+      "train_rank_loss": 0.041307167897545426,
+      "train_depth_pen": 0.0,
+      "train_avg_depth": 1.706655609133126,
+      "val_mrr": 0.0639846890374872,
+      "val_hits10": 0.17,
+      "val_hits20": 0.25,
+      "val_hits50": 0.47,
+      "val_avg_depth": 2.4451297405189623,
+      "computation_saved": 0.18495675316034588
+    },
+    {
+      "epoch": 50,
+      "train_loss": 0.037787061932732464,
+      "train_rank_loss": 0.037787061932732464,
+      "train_depth_pen": 0.0,
+      "train_avg_depth": 1.7491510624129079,
+      "val_mrr": 0.12398921792211856,
+      "val_hits10": 0.23,
+      "val_hits20": 0.33,
+      "val_hits50": 0.6,
+      "val_avg_depth": 2.5690818363273453,
+      "computation_saved": 0.14363938789088493
+    }
+  ],
+  "final_results": {}
+}

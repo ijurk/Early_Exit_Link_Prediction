@@ -1,0 +1,27 @@
+{
+  "mrr": 0.12027140369075047,
+  "hits@1": 0.04743833017077799,
+  "hits@3": 0.13092979127134724,
+  "hits@10": 0.2523719165085389,
+  "hits@20": 0.34535104364326374,
+  "hits@50": 0.523719165085389,
+  "hits@100": 0.7286527514231499,
+  "hits@200": 0.9013282732447818,
+  "avg_depth": 1.7645533200693748,
+  "computation_saved": 0.411815559976875,
+  "num_negatives": 500,
+  "sampling_method": "all_hard_negatives",
+  "evaluation_method": "soft_act",
+  "protocol": "HeaRT_full",
+  "seed": 123,
+  "elapsed_time_minutes": 32.73505900700887,
+  "rank_distribution": {
+    "rank_1": 25,
+    "rank_2-3": 44,
+    "rank_4-10": 64,
+    "rank_11-20": 49,
+    "rank_21-50": 94,
+    "rank_51-100": 108,
+    "rank_>100": 143
+  }
+}
