@@ -1,6 +1,6 @@
 # Adaptive Early-Exit GNN for Link Prediction
 
-Code for the L65 Geometric Deep Learning mini-project:
+Code for:
 
 > *Adaptive Early-Exit Graph Neural Networks for Subgraph-Based Link Prediction*  
 > Iva Jurkovic, University of Cambridge, 2025-2026
